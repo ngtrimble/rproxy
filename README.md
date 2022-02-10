@@ -12,8 +12,6 @@ http://localhost:9999/svcb => http://localhost:9999/
 
 ## Build
 
-Run
-
 ```
 go build
 ```
