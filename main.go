@@ -14,7 +14,7 @@ func main() {
 	go runInternalDemoServer(":8888")
 	go runInternalDemoServer(":9999")
 
-	// This is just to make using go test in main slightly less janky.
+	// A real proxy server would start here and not include the demo servers above.
 	doProxy()
 }
 
